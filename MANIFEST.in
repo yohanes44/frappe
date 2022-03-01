@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include horti_management *.css
+recursive-include horti_management *.csv
+recursive-include horti_management *.html
+recursive-include horti_management *.ico
+recursive-include horti_management *.js
+recursive-include horti_management *.json
+recursive-include horti_management *.md
+recursive-include horti_management *.png
+recursive-include horti_management *.py
+recursive-include horti_management *.svg
+recursive-include horti_management *.txt
+recursive-exclude horti_management *.pyc
